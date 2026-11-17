@@ -40,7 +40,7 @@ Fusionet/
 │   │   └── ui/             # shadcn/ui components
 │   ├── index.css, styles/globals.css
 │   └── Attributions.md     # shadcn/ui and Unsplash credits
-└── node_modules/           # Committed by mistake; should be removed from git
+└── .gitignore              # Keeps node_modules, build output and Python caches out of git
 ```
 
 ## Getting started
@@ -57,8 +57,6 @@ npm install
 npm run dev      # starts Vite on http://localhost:3000 and opens the browser
 npm run build    # production build into build/
 ```
-
-`node_modules/` is committed and contains Windows-specific binaries (for example `@esbuild/win32-x64`), so delete it and run `npm install` on a fresh clone.
 
 ### Backend
 
